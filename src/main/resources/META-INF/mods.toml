@@ -1,0 +1,23 @@
+modLoader="javafml"
+loaderVersion="[30,)"
+issueTrackerURL="https://github.com/pau101/New-View/issues"
+[[mods]]
+    modId="newview"
+    version="${version}"
+    displayName="New View"
+    displayURL="https://www.curseforge.com/minecraft/mc-mods/new-view"
+    authors="pau101"
+    description="New View offers an enriching third-person experience coupled with enhanced world interaction."
+    logoFile="logo.png"
+[[dependencies.newview]]
+    modId="forge"
+    mandatory=true
+    versionRange="[30,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.newview]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.1]"
+    ordering="NONE"
+    side="BOTH"
